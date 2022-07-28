@@ -1,8 +1,11 @@
 import { Button, Checkbox, Form, Input } from "antd";
-
+import Head from "next/head";
 const index = () => {
   return (
     <>
+      <Head>
+        <title>Login</title>
+      </Head>
       <div className="sign_form">
         <Form
           name="basic"

@@ -39,6 +39,9 @@
 
  
 } */
+
+ /* ..........................FOOTER......................................  */
+
 *{
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -46,7 +49,7 @@
 .flex_container{
   display: flex;
   padding: 10px;
-  background:#212329 ;
+  background:#198754;;
   color: aliceblue;
   margin-top: 50%;
   justify-content: center;
@@ -113,4 +116,50 @@
 
 .sign_form Input{
  margin-bottom: 20px;
+}
+
+/* .....................MAIN SEARCH BUUTON FOR HOME PAGE................ */
+
+
+
+
+
+.searchBox{
+  top: 50%;
+  left: 30%;
+  position: absolute;
+  border-radius: 5px;
+  /* background: gray; */
+  height: 90px;
+  padding: 30px;
+  background: rgba(255, 255, 255, .6);
+  
+}
+
+.searchBox_inp{
+  
+  
+  width: 500px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  
+}
+
+.search-btn{
+  
+  
+  width: 70px;
+  height: 30px;
+  border-radius: 5px;
+  display: flex;
+  float: right;
+  font-family: 'Mouse Memoirs', sans-serif;
+  justify-content: center;
+  align-items: center;
+  background: #198754;
+  border: none;
+  
+  
+  
 }

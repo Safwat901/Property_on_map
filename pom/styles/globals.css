@@ -51,7 +51,7 @@
   padding: 10px;
   background:#198754;;
   color: aliceblue;
-  margin-top: 50%;
+  margin-top: 200%;
   justify-content: center;
 }
 .foot_er{
@@ -159,7 +159,54 @@
   align-items: center;
   background: #198754;
   border: none;
-  
+  font-family: 'Roboto', sans-serif;
   
   
 }
+
+/* ........................................FLATE FOR RENT */
+
+
+.container{
+
+height: 70px;
+margin: 0px;
+text-align: left;
+
+
+
+
+}
+
+.container h1{
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  }
+
+
+  .container1{
+
+    height: 80px;
+    margin: 0px;
+    text-align: left;
+    
+    margin-top:30%;
+    width: 60rem;
+    margin-left: 110px;
+    
+    padding: 15px;
+    margin-bottom: 30px;
+    
+    
+    }  
+
+    .container1 h1{
+
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      
+      }
+ 
+
+
+

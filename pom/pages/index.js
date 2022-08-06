@@ -5,6 +5,9 @@ import Login_button from "../components/Login_button";
 import Navbar from "../components/Navbar";
 import Head from "next/head";
 import MainSearch from "../components/MainSearch";
+import Cards from "../components/Cards";
+import FlatFr from "../components/FlatFr";
+import FlateFs from "../components/FlateFs";
 
 const index = () => {
   return (
@@ -16,6 +19,17 @@ const index = () => {
       <Navbar />
       <Carousel />
       <MainSearch />
+      <FlatFr />
+      <Cards />
+      <Cards />
+      <Cards />
+      <Cards />
+      <FlateFs />
+      <Cards />
+      <Cards />
+      <Cards />
+      <Cards />
+
       <Footer />
     </>
   );

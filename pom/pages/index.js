@@ -10,6 +10,7 @@ import FlatFr from "../components/FlatFr";
 import FlateFs from "../components/FlateFs";
 import CardsRowfr from "../components/CardsRowfr";
 import CardsRowfs from "../components/CardsRowfs";
+import SliderVt from "../components/SliderVt";
 
 const index = () => {
   return (
@@ -24,6 +25,7 @@ const index = () => {
       <CardsRowfr />
       <FlateFs />
       <CardsRowfs />
+      <SliderVt />
 
       <Footer />
     </>

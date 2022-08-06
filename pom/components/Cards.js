@@ -1,6 +1,6 @@
 import React from "react";
 
-const Cards = () => {
+const Cards = (props) => {
   return (
     <>
       <div
@@ -17,19 +17,22 @@ const Cards = () => {
         }}
       >
         <img
-          style={{ width: "18rem", height: "15rem" }}
+          style={{ width: "auto", height: "12rem", objectFit: "auto" }}
           class="card-img-top"
-          src="/card1.jpg"
+          src={props.imgsrc}
           alt="Card image cap"
         />
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+          <h5 class="card-title">{props.title}</h5>
+          <p style={{ color: "Green" }} class="card-location">
+            {props.location}
           </p>
-          <a href="#" class="btn btn-primary">
-            Go somewhere
+
+          <p style={{ fontFamily: "robot" }} class="card-detail">
+            {props.detail}
+          </p>
+          <a href="#" class="btn btn-success">
+            See Deatils
           </a>
         </div>
       </div>

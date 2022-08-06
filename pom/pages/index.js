@@ -8,6 +8,8 @@ import MainSearch from "../components/MainSearch";
 import Cards from "../components/Cards";
 import FlatFr from "../components/FlatFr";
 import FlateFs from "../components/FlateFs";
+import CardsRowfr from "../components/CardsRowfr";
+import CardsRowfs from "../components/CardsRowfs";
 
 const index = () => {
   return (
@@ -15,20 +17,13 @@ const index = () => {
       <Head>
         <title>Home</title>
       </Head>
-
       <Navbar />
       <Carousel />
       <MainSearch />
       <FlatFr />
-      <Cards />
-      <Cards />
-      <Cards />
-      <Cards />
+      <CardsRowfr />
       <FlateFs />
-      <Cards />
-      <Cards />
-      <Cards />
-      <Cards />
+      <CardsRowfs />
 
       <Footer />
     </>

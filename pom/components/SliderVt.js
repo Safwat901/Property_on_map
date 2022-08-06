@@ -8,6 +8,7 @@ const SliderVt = () => {
           width: "70%",
           marginLeft: "200px",
           objectFit: "contain",
+          marginTop: "33rem",
         }}
         slide={false}
       >

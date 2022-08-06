@@ -164,7 +164,7 @@
   
 }
 
-/* ........................................FLATE FOR RENT */
+/* ........................................FLATE FOR RENT AND SALE */
 
 
 .container{
@@ -209,6 +209,74 @@ text-align: left;
       
       }
  
+      /* ........................................TOP RATED DEVELOPERS */
 
 
+      .container3{
 
+        height: 80px;
+        margin: 0px;
+        text-align: left;
+        
+        margin-top:5rem;
+        width: 60rem;
+        margin-left: 110px;
+        
+        padding: 15px;
+        margin-bottom: 30px;
+        
+        
+        }  
+
+        .container3 h1{
+
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          color: grey;
+          
+          }
+
+/* ........................................POPULAR MYMENSINGH NEIGHBORHOOD */
+
+.container4{
+
+  height: 80px;
+  margin: 0px;
+  text-align: left;
+  
+  margin-top:30rem;
+  width: 60rem;
+  margin-left: 330px;
+  
+  padding: 15px;
+  margin-bottom: 30px;
+  
+  
+  } 
+
+  .container4 h1{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+    
+    }
+
+
+   /* ........................................POPULAR MYMENSINGH NEIGHBORHOOD>>for sale list */ 
+
+    .forSale{
+      display: flex;
+    }
+
+    .forSale_col{
+       display: flex;
+      flex-direction: column; 
+      margin: 30px 
+    }
+.forSale_col a{
+
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+.forSale_col1 k1{
+  color: #198754;
+}

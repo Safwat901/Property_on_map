@@ -11,6 +11,10 @@ import FlateFs from "../components/FlateFs";
 import CardsRowfr from "../components/CardsRowfr";
 import CardsRowfs from "../components/CardsRowfs";
 import SliderVt from "../components/SliderVt";
+import TopRatedev from "../components/TopRatedev";
+import CardsTopratedv from "../components/CardsTopratedv";
+import PopularMymenNeig from "../components/PopularMymenNeig";
+import Tabb from "../components/Tabb";
 
 const index = () => {
   return (
@@ -25,7 +29,12 @@ const index = () => {
       <CardsRowfr />
       <FlateFs />
       <CardsRowfs />
+
       <SliderVt />
+      <TopRatedev />
+      <CardsTopratedv />
+      <PopularMymenNeig />
+      <Tabb />
 
       <Footer />
     </>

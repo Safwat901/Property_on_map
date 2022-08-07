@@ -51,7 +51,7 @@
   padding: 10px;
   background:#198754;;
   color: aliceblue;
-  margin-top: 200%;
+  margin-top: 20%;
   justify-content: center;
 }
 .foot_er{
@@ -67,6 +67,8 @@
   color: white;
   text-decoration: none;
   margin-bottom: 0.5rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
 }
 
 .foot_er form{
@@ -77,6 +79,18 @@
 .foot_er button{
   margin-top: 15px;
   font-family: Arial;
+  border: none;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.foot_er h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.foot_er p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
 
 }
 
@@ -261,7 +275,7 @@ text-align: left;
     }
 
 
-   /* ........................................POPULAR MYMENSINGH NEIGHBORHOOD>>for sale list */ 
+   /* ........................................POPULAR MYMENSINGH NEIGHBORHOOD>>for sale and rent list */ 
 
     .forSale{
       display: flex;
@@ -276,7 +290,40 @@ text-align: left;
 
   text-decoration: none;
   margin-bottom: 0.5rem;
-}
-.forSale_col1 k1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
   color: #198754;
+}
+
+.forSale_col h3{
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+
+
+.forRent{
+  display: flex;
+
+}
+
+.forRents_col{
+  display: flex;
+  flex-direction: column; 
+  margin: 30px 
+}
+
+.forRents_col a{
+
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #198754;
+}
+
+.forRents_col h3{
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
 }

@@ -15,6 +15,8 @@ import TopRatedev from "../components/TopRatedev";
 import CardsTopratedv from "../components/CardsTopratedv";
 import PopularMymenNeig from "../components/PopularMymenNeig";
 import Tabb from "../components/Tabb";
+import MenuBar from "../components/MenuBar";
+import NavBarUpper from "../components/NavBarUpper";
 
 const index = () => {
   return (
@@ -22,7 +24,8 @@ const index = () => {
       <Head>
         <title>Home</title>
       </Head>
-      <Navbar />
+      <NavBarUpper />
+      <MenuBar />
       <Carousel />
       <MainSearch />
       <FlatFr />

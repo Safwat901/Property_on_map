@@ -1,3 +1,4 @@
+import { List } from "material-ui";
 import Link from "next/link";
 import Login_button from "./Login_button";
 
@@ -6,7 +7,7 @@ const Navbar = () => {
     <>
       <div style={{ background: "white" }} className="navbar">
         <nav
-          style={{ background: "white", width: "100%" }}
+          style={{ background: "grey", width: "100%" }}
           className="navbar navbar-expand-lg navbar-light  p-3"
         >
           <Link href="/">
@@ -31,9 +32,8 @@ const Navbar = () => {
             id="navbarSupportedContent"
           >
             <ul className="navbar-nav ms-auto  ">
-              <li class="nav-item dropdown">
+              <li style={{ background: "red" }} class="nav-item dropdown">
                 <a
-                  style={{ fontFamily: "roboto", fontWeight: "bold" }}
                   class="nav-link dropdown-toggle"
                   href="#"
                   id="navbarDropdown"
@@ -60,7 +60,6 @@ const Navbar = () => {
 
               <li class="nav-item dropdown">
                 <a
-                  style={{ fontFamily: "roboto", fontWeight: "bold" }}
                   class="nav-link dropdown-toggle"
                   href="#"
                   id="navbarDropdown"
@@ -87,43 +86,24 @@ const Navbar = () => {
 
               <li className="nav-item active ">
                 <Link href="/Add_property">
-                  <a
-                    style={{ fontFamily: "roboto", fontWeight: "bold" }}
-                    className="nav-link "
-                  >
-                    Add Property
-                  </a>
+                  <a className="nav-link ">Add Property</a>
                 </Link>
               </li>
 
               <li className="nav-item">
                 <Link href="/Blog">
-                  <a
-                    style={{ fontFamily: "roboto", fontWeight: "bold" }}
-                    className="nav-link"
-                  >
-                    Blog
-                  </a>
+                  <a className="nav-link">Blog</a>
                 </Link>
               </li>
+
               <li className="nav-item">
                 <Link href="/New_projects">
-                  <a
-                    style={{ fontFamily: "roboto", fontWeight: "bold" }}
-                    className="nav-link"
-                  >
-                    New Projects
-                  </a>
+                  <a className="nav-link">New Projects</a>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link href="/Services">
-                  <a
-                    style={{ fontFamily: "roboto", fontWeight: "bold" }}
-                    className="nav-link"
-                  >
-                    Services
-                  </a>
+                  <a className="nav-link">Services</a>
                 </Link>
               </li>
               <Login_button />

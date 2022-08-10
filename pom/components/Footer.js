@@ -5,7 +5,7 @@ const Footer = () => {
     <>
       <div className="flex_container">
         <div className="foot_er col1">
-          <h1>Useful Links</h1>
+          <h1>USEFUL LINKS</h1>
           <Link href="/">ABOUT US</Link>
           <Link href="/">CONTACT US</Link>
           <Link href="/">CAREERS </Link>

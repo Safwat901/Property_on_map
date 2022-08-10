@@ -17,7 +17,7 @@ const MenuBar = () => {
             height: "50px",
           }}
         >
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/">
             <img
               style={{ marginLeft: "-90px" }}
               src="/logo.png"
@@ -38,7 +38,7 @@ const MenuBar = () => {
                 bottom: "50px",
               }}
             >
-              Property On Man
+              Property On Map
             </span>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -155,7 +155,7 @@ const MenuBar = () => {
               </div>
             </Nav>
           </Navbar.Collapse>
-          <Login_button />
+          <Login_button title="Log in" />
         </Container>
       </Navbar>
     </>

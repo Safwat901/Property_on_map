@@ -1,11 +1,11 @@
 import Link from "next/link";
 
-const Login_button = () => {
+const Login_button = (props) => {
   return (
     <>
       <div className="sign_in">
         <Link href="/Login">
-          <button className="sign_up btn">Log in</button>
+          <button className="sign_up btn">{props.title}</button>
         </Link>
       </div>
     </>

@@ -31,7 +31,11 @@ const Cards = (props) => {
           <p style={{ fontFamily: "robot" }} class="card-detail">
             {props.detail}
           </p>
-          <a href="#" class="btn btn-success">
+          <a
+            style={{ background: "#4f7942", color: "white" }}
+            href="#"
+            class="btn "
+          >
             See Deatils
           </a>
         </div>

@@ -7,7 +7,11 @@ const NavBarUpper = () => {
   return (
     <>
       <Navbar
-        style={{ height: "30px", background: "#f0fff0", color: "black" }}
+        style={{
+          height: "30px",
+          background: "#f0fff0",
+          color: "black",
+        }}
         collapseOnSelect
         expand="lg"
         variant="dark"

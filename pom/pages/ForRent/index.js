@@ -2,7 +2,8 @@ import MenuBar from "../../components/MenuBar";
 import NavBarUpper from "../../components/NavBarUpper";
 import Head from "next/head";
 import Footer from "../../components/Footer";
-import CardForDetail from "../../components/CardForDetail";
+
+import JsonCardRent from "../../components/JsonCardRent";
 
 const index = () => {
   return (
@@ -12,11 +13,8 @@ const index = () => {
       </Head>
       <NavBarUpper />
       <MenuBar />
-      <CardForDetail />
-      <CardForDetail />
-      <CardForDetail />
-      <CardForDetail />
-      <CardForDetail />
+      <JsonCardRent />
+
       <Footer />
     </>
   );

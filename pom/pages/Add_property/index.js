@@ -1,4 +1,6 @@
 import Head from "next/head";
+import CardForDetail from "../../components/CardForDetail";
+import JsonCard from "../../components/JsonCardRent";
 
 const index = () => {
   return (

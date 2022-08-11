@@ -409,11 +409,13 @@ nav{
 }
 .desc-dev h3{
   
-  font-family: "Tahoma"
+  font-family: "Tahoma";
+  text-transform:capitalize
 
 }
 .desc-dev p{
   
-  font-family: "Tahoma"
+  font-family: "Tahoma";
+  text-transform:capitalize
 
 }

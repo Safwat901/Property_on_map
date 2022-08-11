@@ -1,27 +1,27 @@
 import CardForDetail from "./CardForDetail";
 
-const JsonCardRent = () => {
-  const Cardinfo = [
+const JsonCardSale = () => {
+  const Cardsinfo = [
     {
       price: "BDT 60 lakh",
       location: "Notun bazar, Mymensingh",
       type: "Apartment",
       details: "2 bed, 2 bath",
-      imgsrcs: "/card5.jpg",
+      imgsrcs: "/card1.jpg",
     },
     {
       price: "BDT 40 lakh",
       location: "boundary road, Mymensingh",
       type: "House",
       details: "3 bed, 2 bath ",
-      imgsrcs: "/card7.jpg",
+      imgsrcs: "/card2.jpg",
     },
     {
       price: "BDT 60 lakh",
       location: "Notun bazar",
       type: "Apartment",
       details: "2 bed, 2 bath, Mymensingh",
-      imgsrcs: "/card8.jpg",
+      imgsrcs: "/card7.jpg",
     },
     {
       price: "BDT 60 lakh",
@@ -39,15 +39,15 @@ const JsonCardRent = () => {
     },
   ];
 
-  const renderCard = (item, index) => {
+  const renderCards = (items, ind) => {
     return (
       <>
-        <CardForDetail data={item} />
+        <CardForDetail data={items} />
       </>
     );
   };
 
-  return <div>{Cardinfo.map(renderCard)}</div>;
+  return <>{Cardsinfo.map(renderCards)}</>;
 };
 
-export default JsonCardRent;
+export default JsonCardSale;

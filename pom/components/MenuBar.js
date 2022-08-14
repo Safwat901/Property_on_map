@@ -118,7 +118,8 @@ const MenuBar = () => {
                     fontFamily: "Tahoma",
                     fontSize: "18px",
                   }}
-                  href="/Add_property"
+                  // href="/Add_property"
+                  onClick={() => window.location.replace("/Add_property")}
                 >
                   Add Property
                 </Nav.Link>

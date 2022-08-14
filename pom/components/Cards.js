@@ -35,7 +35,7 @@ const Cards = (props) => {
           </p>
           <a
             href={props.link}
-            style={{ background: "#4f7942", color: "white" }}
+            style={{ background: "#32cd32", color: "white" }}
             class="btn "
           >
             See Deatils

@@ -5,6 +5,8 @@ import Footer from "../../components/Footer";
 
 import JsonCardRent from "../../components/JsonCardRent";
 
+import BreadCumbMui from "../../components/BreadCumbMui";
+
 const index = () => {
   return (
     <>
@@ -13,6 +15,8 @@ const index = () => {
       </Head>
       <NavBarUpper />
       <MenuBar />
+      {/* <BreadCumb segment="For Rent" path="Notun Bazar" /> */}
+      <BreadCumbMui segment="For Rent" place="Notun Bazar" />
       <JsonCardRent />
 
       <Footer />

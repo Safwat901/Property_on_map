@@ -1,7 +1,7 @@
 // import Image from "next/image";
 import { Carousel } from "react-responsive-carousel";
 
-const Carousell = () => {
+const Carousell = (props) => {
   return (
     <>
       <Carousel>
@@ -13,7 +13,7 @@ const Carousell = () => {
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
-                src="/carousel1.jpg "
+                src={props.imgsrc}
                 width="500"
                 height="600"
                 class="d-block w-100"

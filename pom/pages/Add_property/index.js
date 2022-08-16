@@ -1,6 +1,10 @@
+import MenuBar from "../../components/MenuBar";
+import NavBarUpper from "../../components/NavBarUpper";
+
+import Footer from "../../components/Footer";
 import Head from "next/head";
-import CardForDetail from "../../components/CardForDetail";
-import JsonCard from "../../components/JsonCardRent";
+import Carousel from "../../components/Carousell";
+import AdpropertyGetSt from "../../components/AdpropertyGetSt";
 
 const index = () => {
   return (
@@ -8,7 +12,12 @@ const index = () => {
       <Head>
         <title>ADD PROPERTY</title>
       </Head>
-      <h1>ADD PROPERTY PAGE</h1>
+      <NavBarUpper />
+      <MenuBar />
+      <Carousel imgsrc="/carousel(2).png" />
+      <AdpropertyGetSt />
+
+      <Footer />
     </>
   );
 };

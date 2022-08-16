@@ -1,0 +1,25 @@
+.startedDiv{
+   
+    width: 35%;
+    position: absolute;
+    margin-left: 100px;
+    top: 50%;
+
+    padding: 10px;
+}
+
+.titleDiv{
+    margin-bottom: 20px;
+    font-family: Tahoma;
+}
+
+.desDiv{
+    margin-bottom: 25px;
+    font-family: Tahoma;    
+
+
+}
+
+.btnDiv{
+    margin-left: -30px;
+}

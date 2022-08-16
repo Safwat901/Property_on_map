@@ -26,7 +26,7 @@ const index = () => {
       </Head>
       <NavBarUpper />
       <MenuBar />
-      <Carousel />
+      <Carousel imgsrc="/carousel1.jpg" />
       <MainSearch />
       <FlatFr />
       <CardsRowfr />

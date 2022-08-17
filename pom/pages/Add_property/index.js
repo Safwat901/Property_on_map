@@ -5,6 +5,8 @@ import Footer from "../../components/Footer";
 import Head from "next/head";
 import Carousel from "../../components/Carousell";
 import AdpropertyGetSt from "../../components/AdpropertyGetSt";
+import AdpropertyForm from "../../components/AdpropertyForm";
+import AdpropertyHowWork from "../../components/AdpropertyHowWork";
 
 const index = () => {
   return (
@@ -14,8 +16,9 @@ const index = () => {
       </Head>
       <NavBarUpper />
       <MenuBar />
-      <Carousel imgsrc="/carousel(2).png" />
+      <Carousel imgsrc="/carousel3.jpg" />
       <AdpropertyGetSt />
+      <AdpropertyHowWork />
 
       <Footer />
     </>

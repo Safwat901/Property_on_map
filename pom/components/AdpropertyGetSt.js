@@ -1,4 +1,5 @@
 import styles from "../styles/Adproperty.module.css";
+import AdpropertyForm from "./AdpropertyForm";
 import AdpropertyGetStBtn from "./AdpropertyGetStBtn";
 import Login_button from "./Login_button";
 
@@ -16,7 +17,7 @@ const AdpropertyGetSt = () => {
           </p>
         </div>
         <div className={styles.btnDiv}>
-          <AdpropertyGetStBtn />
+          <AdpropertyForm />
         </div>
       </div>
     </>

@@ -27,3 +27,72 @@
 .radio2{
     margin-top: 15px;
 }
+
+/* .........................................FORM */
+
+.container{
+    margin-left: 20px;
+    flex-direction: column;
+}
+
+.field input{
+    
+    flex-direction: column;
+    margin-bottom: 13px;
+}
+.uiForm{
+    flex-direction: column;
+}
+
+.uiDivider{
+    flex-direction: column;
+}
+
+/* ..................HOW IT WORKS.............. */
+
+.howDiv{
+    margin-left: 550px;
+}
+.howDes{
+    margin-left: -100px;
+    align-items: center;
+    
+}
+.howImg img{
+    height: 250px;
+    margin-right: 70px;
+
+}
+
+.howImg {
+    margin-left: -350px;
+    margin-top: 40px;
+
+}
+
+.imgCont{
+    display: flex;
+    margin-top: 30px;
+    margin-left: -400px;
+    
+   
+    
+}
+
+.imgCont p{
+   margin-right: 300px;
+   text-align: left;
+   padding: 5px;
+   display: flex;
+   color: red;
+   flex-direction: row;
+   display: inline-block;
+   background: black;
+   
+  
+   text-align: justify;
+   
+   
+   
+    
+}

@@ -44,6 +44,7 @@ const AdpropertyGetStBtn = () => {
                 type="email"
                 placeholder="name@example.com"
                 autoFocus
+                required
               />
             </Form.Group>
 
@@ -58,40 +59,14 @@ const AdpropertyGetStBtn = () => {
           {/*.......................... radio button components................ */}
           <Form>
             <p>What's your Purpose?</p>
-            {/* {["checkbox", "radio"].map((type) => ( */}
-            {/* <div key={`inline-${type}`} className="mb-3"> */}
-            <Form.Check
-              inline
-              label="Sale"
-              name="group1"
-              //   type={type}
-              //   id={`inline-${type}-1`}
-            />
-            <Form.Check
-              inline
-              label="Rent"
-              name="group1"
-              //   type={type}
-              //   id={`inline-${type}-2`}
-            />
+
+            <Form.Check inline label="Sale" name="group1" />
+            <Form.Check inline label="Rent" name="group1" />
             <div className={styles.radio2}>
               <p>Property Type?</p>
-              {/* {["checkbox", "radio"].map((type) => ( */}
-              {/* <div key={`inline-${type}`} className="mb-3"> */}
-              <Form.Check
-                inline
-                label="Sale"
-                name="group1"
-                //   type={type}
-                //   id={`inline-${type}-1`}
-              />
-              <Form.Check
-                inline
-                label="Rent"
-                name="group1"
-                //   type={type}
-                //   id={`inline-${type}-2`}
-              />
+
+              <Form.Check inline label="Sale" name="group1" />
+              <Form.Check inline label="Rent" name="group1" />
             </div>
           </Form>
         </Modal.Body>

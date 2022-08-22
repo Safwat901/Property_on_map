@@ -52,6 +52,8 @@
 
 .howDiv{
     margin-left: 550px;
+    margin-top: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .howDes{
     margin-left: -100px;
@@ -95,4 +97,54 @@
    
    
     
+}
+
+/*................................... CUSTOMER EXPERINCE............ */
+
+.cusDiv{
+    margin-left: 550px;
+    margin-top: 100px;
+}
+.cusDes{
+    margin-left: -100px;
+    align-items: center;
+    
+}
+
+
+/* ...................CUSTOMER VIDEO............. */
+.cusVdo{
+    display: flex;
+    gap: 50px;
+    margin-left: -350px;
+    margin-top: 30px;
+}
+
+/* ...............FAQ...................... */
+
+.mainFaq{
+    margin-top: 150px;
+    
+}
+.titleFaq{
+    margin-left: 450px;
+}
+
+.accordion{
+    margin-left: -10px;
+    margin-top: 40px;
+    width: 100px;
+}
+
+/* .......................CONTACT.................. */
+
+.contactDiv{
+    position: absolute;
+    margin-top: -12rem;
+    
+    
+}
+.coverDiv{
+    margin-left: 200px;
+    margin-top: 100px;
 }

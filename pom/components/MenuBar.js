@@ -69,7 +69,18 @@ const MenuBar = () => {
                   }
                   id="basic-nav-dropdown"
                 >
-                  <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                  <NavDropdown.Item
+                    // style={{
+                    //   background: "yellow",
+                    //   height: "500px",
+                    //   width: "300px",
+                    //   padding: "100px",
+                    //   display: "flex",
+                    // }}
+                    href="#action/3.1"
+                  >
+                    Action
+                  </NavDropdown.Item>
                   <NavDropdown.Item href="#action/3.2">
                     Another action
                   </NavDropdown.Item>

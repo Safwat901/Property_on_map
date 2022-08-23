@@ -41,17 +41,19 @@ const MegaMenuBar = () => {
                   <div className={styles.col}>
                     <a href="/">
                       <img
-                        style={{ marginLeft: "5px" }}
+                        style={{ marginLeft: "0px" }}
                         src="/Megaimg1.jpg"
                         alt="missing"
                       />
                       <p>plot for sale</p>
+                      <Login_button title="Log in" />
+                      <button>sdaisdi</button>
                     </a>
                   </div>
                   <div className={styles.col}>
                     <a href="/">
                       <img
-                        style={{ marginLeft: "20px" }}
+                        style={{ marginLeft: "0px" }}
                         src="/Megaimg1.jpg"
                         alt="missing"
                       />
@@ -61,7 +63,7 @@ const MegaMenuBar = () => {
                   <div className={styles.col}>
                     <a href="/">
                       <img
-                        style={{ marginLeft: "10px" }}
+                        style={{ marginLeft: "0px" }}
                         src="/Megaimg1.jpg"
                         alt="missing"
                       />
@@ -71,7 +73,7 @@ const MegaMenuBar = () => {
                   <div className={styles.col}>
                     <a href="/">
                       <img
-                        style={{ marginLeft: "55px" }}
+                        style={{ marginLeft: "0px" }}
                         src="/Megaimg1.jpg"
                         alt="missing"
                       />
@@ -81,7 +83,7 @@ const MegaMenuBar = () => {
                   <div className={styles.col}>
                     <a href="/">
                       <img
-                        style={{ marginLeft: "55px" }}
+                        style={{ marginLeft: "0px" }}
                         src="/Megaimg1.jpg"
                         alt="missing"
                       />

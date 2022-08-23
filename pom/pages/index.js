@@ -17,6 +17,7 @@ import PopularMymenNeig from "../components/PopularMymenNeig";
 import Tabb from "../components/Tabb";
 import MenuBar from "../components/MenuBar";
 import NavBarUpper from "../components/NavBarUpper";
+import MegaMenuBar from "../components/MegaMenuBar";
 
 const index = () => {
   return (
@@ -25,7 +26,7 @@ const index = () => {
         <title>Home</title>
       </Head>
       <NavBarUpper />
-      <MenuBar />
+      <MegaMenuBar />
       <Carousel imgsrc="/carousel1.jpg" />
       <MainSearch />
       <FlatFr />

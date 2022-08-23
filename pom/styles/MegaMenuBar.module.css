@@ -1,0 +1,110 @@
+.wrapper{
+    width: 100%;
+
+    
+}
+
+.megaMenu{
+    width: 100%;
+    height: 60px;
+    
+}
+
+.megaMenu ul{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    
+    z-index: 5;
+    line-height: 60px;
+}
+
+.megaMenu ul li{
+    display: inline-block;
+    margin: 0 20px;
+    padding: 0 20px;
+
+
+    
+  
+    
+}
+
+.megaMenu ul li a{
+   text-decoration: none;
+   color: grey;
+   font-family: 'Ubuntu Condensed', sans-serif;
+   
+   text-transform: uppercase;
+   justify-content: space-around;
+   font-size: 16px;
+   display: block;
+   letter-spacing: 1px;
+  
+}
+
+.megaMenu ul li .subMenu .col img{
+   width: 100px;
+   height: 100px;
+   display: block;
+   justify-content: space-around;
+   /* box-shadow:5px 5px 5px 0 gray; */
+   box-shadow: 5px 5px 15px rgb(0,0,0,0.5);
+ }
+
+ .megaMenu ul li .subMenu{
+    position: absolute;
+    width: 80%;
+    height: 200px;
+    left: 0;
+    top: 60px;
+   background: #fff;
+    padding: 25px 15px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    visibility: hidden;
+    margin-left: 200px;
+    z-index: 5;
+    margin-top: 30px;
+  }
+
+  .megaMenu ul li:hover{
+background: grey;
+  }
+
+.megaMenu ul li:hover a{
+    color: white;
+      }
+
+.megaMenu ul li:hover .subMenu{
+        visibility: visible;
+          }      
+
+.megaMenu ul li .subMenu p{
+           color: green;
+           margin-top: 8px;
+           font-size: 14px;
+          }          
+
+          
+.col{
+    margin-left: 2px;
+    gap: 10px;
+    
+} 
+
+.logo{
+    
+    width: 20%;
+    height: 60px;
+    position: absolute;
+    margin-left: 40px;
+}
+
+.navMenu{
+ 
+  width: 1200px;
+  margin-left: 100px;
+
+}

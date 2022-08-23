@@ -1,4 +1,5 @@
 import Head from "next/head";
+import MegaMenuBar from "../../components/MegaMenuBar";
 
 const index = () => {
   return (
@@ -6,7 +7,8 @@ const index = () => {
       <Head>
         <title>New Projects</title>
       </Head>
-      <h1>NEW PROJECTS PAGE</h1>
+
+      <MegaMenuBar />
     </>
   );
 };

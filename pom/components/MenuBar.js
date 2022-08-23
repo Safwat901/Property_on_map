@@ -4,6 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Link from "next/link";
 import Login_button from "./Login_button";
+import MenuBarCard from "./MenuBarCard";
 
 const MenuBar = () => {
   return (
@@ -70,26 +71,19 @@ const MenuBar = () => {
                   id="basic-nav-dropdown"
                 >
                   <NavDropdown.Item
-                    // style={{
-                    //   background: "yellow",
-                    //   height: "500px",
-                    //   width: "300px",
-                    //   padding: "100px",
-                    //   display: "flex",
-                    // }}
+                    style={{
+                      height: "200px",
+                      width: "800px",
+                      padding: "10px",
+                      marginLeft: "-200px",
+                    }}
                     href="#action/3.1"
                   >
-                    Action
-                  </NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.2">
-                    Another action
-                  </NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.3">
-                    Something
-                  </NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item href="#action/3.4">
-                    Separated link
+                    <MenuBarCard />
+                    <MenuBarCard />
+                    <MenuBarCard />
+                    <MenuBarCard />
+                    <MenuBarCard />
                   </NavDropdown.Item>
                 </NavDropdown>
 
@@ -110,16 +104,30 @@ const MenuBar = () => {
                   }
                   id="basic-nav-dropdown"
                 >
-                  <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                  <NavDropdown.Item
+                    style={{
+                      display: "flex",
+                      flexDirection: "row",
+                      width: "400px",
+                      height: ".5px",
+                    }}
+                    href="#action/3.1"
+                  ></NavDropdown.Item>
                   <NavDropdown.Item href="#action/3.2">
-                    Another action
+                    <MenuBarCard />
                   </NavDropdown.Item>
                   <NavDropdown.Item href="#action/3.3">
-                    Something
+                    <MenuBarCard />
                   </NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item href="#action/3.4">
-                    Separated link
+                    <MenuBarCard />
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.2">
+                    <MenuBarCard />
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.2">
+                    <MenuBarCard />
                   </NavDropdown.Item>
                 </NavDropdown>
 

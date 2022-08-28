@@ -7,7 +7,7 @@ const AdpropertyGetSt = () => {
   return (
     <>
       <div className={styles.startedDiv}>
-        <div className={styles.titleDiv}>
+        <div className={styles.tittleDiv}>
           <h2>Request For Rent or Buy</h2>
         </div>
         <div className={styles.desDiv}>

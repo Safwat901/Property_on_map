@@ -1,6 +1,6 @@
 import MenuBar from "../../components/MenuBar";
 import NavBarUpper from "../../components/NavBarUpper";
-
+import MegaMenuBar from "../../components/MegaMenuBar";
 import Footer from "../../components/Footer";
 import Head from "next/head";
 import Carousel from "../../components/Carousell";
@@ -18,7 +18,7 @@ const index = () => {
         <title>ADD PROPERTY</title>
       </Head>
       <NavBarUpper />
-      <MenuBar />
+      <MegaMenuBar />
       <Carousel imgsrc="/carousel3.jpg" />
       <AdpropertyGetSt />
       <AdpropertyHowWork />

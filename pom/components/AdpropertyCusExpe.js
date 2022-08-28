@@ -6,7 +6,7 @@ const AdpropertyCusExpe = () => {
     <>
       <div className={styles.cusDiv}>
         <div className={styles.cusTitle}>
-          <h2>How it works</h2>
+          <h2>Customer experience</h2>
         </div>
         <div className={styles.cusDes}>
           <p>adsjkl kdjpo apodkjapo xqdij cqdijpoqcn a qcijaxnpdijq qdijc</p>

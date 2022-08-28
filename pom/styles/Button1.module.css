@@ -1,0 +1,19 @@
+.divBtn{
+    
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.btn{
+    background: #32cd32;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: azure;
+    width: 110px;
+    border-radius: 3px;
+    margin-left: -60px;
+    border: none;
+    height: 40px;
+   
+}

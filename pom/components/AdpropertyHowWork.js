@@ -1,27 +1,76 @@
 import styles from "../styles/Adproperty.module.css";
+import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
 
 const AdpropertyHowWork = () => {
   return (
     <>
-      <div className={styles.howDiv}>
-        <div className={styles.howTitle}>
-          <h2>How it works</h2>
+      <div className={styles.mainnDiv}>
+        <div className={styles.titleDiv}>
+          <h1>How it works</h1>
         </div>
-        <div className={styles.howDes}>
-          <p>adsjkl kdjpo apodkjapo xqdij cqdijpoqcn a qcijaxnpdijq qdijc</p>
-        </div>
-        <div className={styles.howImg}>
-          <img src="/cartoon1.png" alt="" />
-          <img src="/cartoon2.png" alt="" />
-          <img src="/cartoon5.png" alt="" />
-          <img src="/cartoon4.jpg" alt="" />
+        <div className={styles.paraDiv}>
+          <p>paragraph idao sdu as iodu ij</p>
         </div>
 
-        <div className={styles.imgCont}>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-          <p>adskhlkqdn powop wipok lkd adsweqew w rtw</p>
-          <p>adskh kidjoixnmwip qwdi jqndmp wijdowdwsdk </p>
-          <p>adskh apidsj podkjoa</p>
+        <div className={styles.cardDiv}>
+          <Card style={{ width: "18rem", height: "20rem", border: "none" }}>
+            <Card.Img
+              style={{ width: "18rem", height: "10rem" }}
+              variant="top"
+              src="/cartoon1.png"
+            />
+            <Card.Body>
+              <Card.Text>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+          {/* ....................card2 ........... */}
+          <Card style={{ width: "18rem", height: "20rem", border: "none" }}>
+            <Card.Img
+              style={{ width: "18rem", height: "10rem" }}
+              variant="top"
+              src="/cartoon1.png"
+            />
+            <Card.Body>
+              <Card.Text>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+
+          {/* ....................card3 ........... */}
+          <Card style={{ width: "18rem", height: "20rem", border: "none" }}>
+            <Card.Img
+              style={{ width: "18rem", height: "10rem" }}
+              variant="top"
+              src="/cartoon1.png"
+            />
+            <Card.Body>
+              <Card.Text>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+
+          {/* ....................card4 ........... */}
+          <Card style={{ width: "18rem", height: "20rem", border: "none" }}>
+            <Card.Img
+              style={{ width: "18rem", height: "10rem" }}
+              variant="top"
+              src="/cartoon1.png"
+            />
+            <Card.Body>
+              <Card.Text>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </Card.Text>
+            </Card.Body>
+          </Card>
         </div>
       </div>
     </>

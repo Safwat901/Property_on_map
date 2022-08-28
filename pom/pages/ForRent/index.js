@@ -1,7 +1,8 @@
-import MenuBar from "../../components/MenuBar";
+// import MenuBar from "../../components/MenuBar";
 import NavBarUpper from "../../components/NavBarUpper";
 import Head from "next/head";
 import Footer from "../../components/Footer";
+import MegaMenuBar from "../../components/MegaMenuBar";
 
 import JsonCardRent from "../../components/JsonCardRent";
 
@@ -14,7 +15,7 @@ const index = () => {
         <title>Rent</title>
       </Head>
       <NavBarUpper />
-      <MenuBar />
+      <MegaMenuBar />
       {/* <BreadCumb segment="For Rent" path="Notun Bazar" /> */}
       <BreadCumbMui segment="For Rent" place="Notun Bazar" />
       <JsonCardRent />

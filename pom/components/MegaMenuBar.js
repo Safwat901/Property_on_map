@@ -1,5 +1,7 @@
 import styles from "../styles/MegaMenuBar.module.css";
+import MegaButton from "./MegaButton";
 import Login_button from "./Login_button";
+import Link from "next/link";
 
 const MegaMenuBar = () => {
   return (
@@ -46,8 +48,8 @@ const MegaMenuBar = () => {
                         alt="missing"
                       />
                       <p>plot for sale</p>
-                      <Login_button title="Log in" />
-                      <button>sdaisdi</button>
+
+                      <button>sdkls</button>
                     </a>
                   </div>
                   <div className={styles.col}>
@@ -58,6 +60,8 @@ const MegaMenuBar = () => {
                         alt="missing"
                       />
                       <p>building for sale</p>
+
+                      <button style={{ marginTop: "-20px" }}>sdkls</button>
                     </a>
                   </div>
                   <div className={styles.col}>
@@ -68,6 +72,7 @@ const MegaMenuBar = () => {
                         alt="missing"
                       />
                       <p>duplex for sale</p>
+                      <button>sdkls</button>
                     </a>
                   </div>
                   <div className={styles.col}>
@@ -78,6 +83,7 @@ const MegaMenuBar = () => {
                         alt="missing"
                       />
                       <p>all residential properties</p>
+                      <button style={{ marginTop: "-20px" }}>sdkls</button>
                     </a>
                   </div>
                   <div className={styles.col}>
@@ -88,6 +94,7 @@ const MegaMenuBar = () => {
                         alt="missing"
                       />
                       <p>all commercial properties</p>
+                      <button style={{ marginTop: "-20px" }}>sdkls</button>
                     </a>
                   </div>
                 </div>
@@ -98,66 +105,81 @@ const MegaMenuBar = () => {
                   <div className={styles.col}>
                     <a href="/">
                       <img
-                        style={{ marginLeft: "5px" }}
-                        src="/cartoon1.png"
+                        style={{ marginLeft: "0px" }}
+                        src="/Megaimg1.jpg"
                         alt="missing"
                       />
                       <p>plot for sale</p>
+
+                      <button>sdkls</button>
                     </a>
                   </div>
                   <div className={styles.col}>
                     <a href="/">
                       <img
-                        style={{ marginLeft: "20px" }}
-                        src="/cartoon1.png"
+                        style={{ marginLeft: "0px" }}
+                        src="/Megaimg1.jpg"
                         alt="missing"
                       />
                       <p>building for sale</p>
+
+                      <button style={{ marginTop: "-20px" }}>sdkls</button>
                     </a>
                   </div>
                   <div className={styles.col}>
                     <a href="/">
                       <img
-                        style={{ marginLeft: "10px" }}
-                        src="/cartoon1.png"
+                        style={{ marginLeft: "0px" }}
+                        src="/Megaimg1.jpg"
                         alt="missing"
                       />
                       <p>duplex for sale</p>
+                      <button>sdkls</button>
                     </a>
                   </div>
                   <div className={styles.col}>
                     <a href="/">
                       <img
-                        style={{ marginLeft: "55px" }}
-                        src="/cartoon1.png"
+                        style={{ marginLeft: "0px" }}
+                        src="/Megaimg1.jpg"
                         alt="missing"
                       />
                       <p>all residential properties</p>
+                      <button style={{ marginTop: "-20px" }}>sdkls</button>
                     </a>
                   </div>
                   <div className={styles.col}>
                     <a href="/">
                       <img
-                        style={{ marginLeft: "55px" }}
-                        src="/cartoon1.png"
+                        style={{ marginLeft: "0px" }}
+                        src="/Megaimg1.jpg"
                         alt="missing"
                       />
                       <p>all commercial properties</p>
+                      <button style={{ marginTop: "-20px" }}>sdkls</button>
                     </a>
                   </div>
                 </div>
               </li>
               <li>
-                <a href="/">Add Property</a>
+                <Link href="/Add_property">
+                  <a>Add Property</a>
+                </Link>
               </li>
               <li>
-                <a href="/">blog</a>
+                <Link href="/Blog">
+                  <a>Blog</a>
+                </Link>
               </li>
               <li>
-                <a href="/">new projects</a>
+                <Link href="/New_projects">
+                  <a>new projects</a>
+                </Link>
               </li>
               <li>
-                <a href="/">services</a>
+                <Link href="/Services">
+                  <a>services</a>
+                </Link>
               </li>
             </div>
             <Login_button title="Log in" />

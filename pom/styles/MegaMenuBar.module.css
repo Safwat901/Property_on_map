@@ -69,6 +69,7 @@
     margin-left: 200px;
     z-index: 5;
     margin-top: 30px;
+    
   }
 
   .megaMenu ul li:hover{
@@ -92,12 +93,13 @@ background: grey;
            text-align: center ;
            display: flex;
            line-height: 25px;
+           background: yellow;
           }          
 
           
 .col{
     margin-left: 2px;
-    
+    position: relative;
     justify-content: space-between;
     
 } 
@@ -132,8 +134,36 @@ align-items: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: azure;
   width: 90px;
-  height: 50px;
+  height: 35px;
   border-radius: 20px;  
-  
+  border: none;
+  text-align: center;
+  z-index: 5;
+  padding: 0px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  vertical-align: top;
     
   }
+
+  /* ...............DROP DOWN BUTTON.................... */
+
+
+  .dropDiv{
+    margin-top: 40px;
+    
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    position: absolute;
+    z-index: 5;
+    align-items: center;
+    
+    
+    
+
+  }
+
+ 
+ 

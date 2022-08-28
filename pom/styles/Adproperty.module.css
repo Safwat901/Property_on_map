@@ -8,7 +8,7 @@
     padding: 10px;
 }
 
-.titleDiv{
+.tittleDiv{
     margin-bottom: 20px;
     font-family: Tahoma;
 }
@@ -76,6 +76,8 @@
     display: flex;
     margin-top: 30px;
     margin-left: -400px;
+   
+    align-items: center;
     
    
     
@@ -84,7 +86,7 @@
 .imgCont p{
    margin-right: 300px;
    text-align: left;
-   padding: 5px;
+   
    display: flex;
    color: red;
    flex-direction: row;
@@ -147,4 +149,42 @@
 .coverDiv{
     margin-left: 200px;
     margin-top: 100px;
+}
+
+
+.imgCont1 {
+    margin: 100px;
+    text-align: center;
+   
+
+}
+
+.imgCont1 p {
+   padding: 0;
+   margin: 0;
+   
+
+}
+
+/* HOW IT WORKS.................................. */
+
+.cardDiv{
+    display: flex;
+    justify-content: space-between;
+   
+    padding-inline: 80px;
+    margin-top: 20px;
+}
+
+.mainnDiv{
+    margin-top: 30px;
+}
+
+.titleDiv{
+    
+    text-align: center;
+}
+
+.paraDiv{
+    text-align: center;
 }

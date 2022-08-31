@@ -1,0 +1,137 @@
+
+
+
+.mainDiv{
+    margin-left: 200px;
+    /* background: red; */
+}
+
+.overView{
+    /* background: yellow; */
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 150px;
+    grid-template-columns: repeat(4,10vw);
+    display: grid;
+   
+
+}
+
+.iconDiv{
+    line-height: 2px;
+   /* background: gray; */
+    display: flex;
+    
+    margin-right: 70px;
+    height: 60px;
+    
+}
+
+.titlediv{
+    margin-top: 10px;
+    margin-left: 10px;
+   
+}
+
+.titlediv p{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+    text-align: left;
+   
+  
+    
+}
+
+.titlediv span{
+   color: gray;
+  font-size: 13px;
+   
+
+}
+
+.container{
+    
+    width: 30%;
+    margin-left: 55rem;
+    margin-top: -103rem;
+    /* background: yellow; */
+    padding-bottom: 500px;
+}
+
+/* FORM.................................. */
+
+.uiDivider{
+    background: green;
+}
+
+.uiForm{
+    
+}
+
+.field label{
+    font-size: 17px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    letter-spacing: 1px;
+   
+}
+
+ .field input{
+width: 300px;
+height: 40px;
+border-radius: 2px;
+border-color: #3cb371 ;
+border-width: 1px;
+
+
+}
+
+.field{
+    
+    
+    
+    
+    }
+
+
+    .container h3 {
+        color: #3cb371;
+        margin-left: 65px;
+    }
+
+
+.priceDiv{
+    margin-top: 20px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+   
+}    
+
+.priceDiv h5{
+    
+    font-family: 'Ubuntu Condensed', sans-serif;
+   
+}  
+.priceDiv h5 span{
+    
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 30px;
+   
+}  
+
+
+/* SIDE CARD.................... */
+
+.mainCardDiv{
+    /* background: red; */
+    width: 25%;
+    height: 100rem;
+    margin-left: 55rem;
+    margin-top: -450px;
+}
+
+.mainCardDiv img{
+   height: 250px;
+   width: 300px;
+}
+

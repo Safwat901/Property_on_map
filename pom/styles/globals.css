@@ -44,6 +44,7 @@
 
 *{
   font-family: Arial, Helvetica, sans-serif;
+  
 }
 
 .flex_container{
@@ -56,6 +57,12 @@
   backdrop-filter: blur(8px);
   border: 3x solid rgba(255, 255, 255, .18);
   box-shadow: 0 8px 32px 0 rgb(40,200,3);
+  
+  
+  position: relative;
+  bottom: 0;
+  
+  
 }
 .foot_er{
   display: flex;

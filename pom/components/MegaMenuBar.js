@@ -7,7 +7,15 @@ const MegaMenuBar = () => {
   return (
     <>
       <div className={styles.wrapper}>
+        {/* HAMBURGER MENU............ */}
+
+        {/* HAMBURGER MENU............ end*/}
         <div className={styles.megaMenu}>
+          <a href="/" className={styles.toggleBtn}>
+            <span className={styles.bar}></span>
+            <span className={styles.bar}></span>
+            <span className={styles.bar}></span>
+          </a>
           <ul>
             {/* .........................logo................. */}
             <div className={styles.logo}>

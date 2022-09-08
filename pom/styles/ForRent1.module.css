@@ -35,7 +35,7 @@
 }
 
 .titlediv p{
-    font-family: 'Ubuntu Condensed', sans-serif;
+    font-family: 'Mukta', sans-serif;
     letter-spacing: 1px;
     font-size: 18px;
     text-align: left;
@@ -55,9 +55,15 @@
     
     width: 30%;
     margin-left: 55rem;
-    margin-top: -103rem;
+    margin-top: -210rem;
     /* background: yellow; */
     padding-bottom: 500px;
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
 }
 
 /* FORM.................................. */
@@ -72,7 +78,7 @@
 
 .field label{
     font-size: 17px;
-    font-family: 'Ubuntu Condensed', sans-serif;
+    font-family: 'Mukta', sans-serif;
     letter-spacing: 1px;
    
 }
@@ -103,18 +109,18 @@ border-width: 1px;
 
 .priceDiv{
     margin-top: 20px;
-    font-family: 'Ubuntu Condensed', sans-serif;
+    font-family: 'Mukta', sans-serif;
    
 }    
 
 .priceDiv h5{
     
-    font-family: 'Ubuntu Condensed', sans-serif;
+    font-family: 'Mukta', sans-serif;
    
 }  
 .priceDiv h5 span{
     
-    font-family: 'Ubuntu Condensed', sans-serif;
+    font-family: 'Mukta', sans-serif;
     font-size: 30px;
    
 }  
@@ -128,10 +134,106 @@ border-width: 1px;
     height: 100rem;
     margin-left: 55rem;
     margin-top: -450px;
+    display: flex;
+    flex-direction: column;
 }
+
+
 
 .mainCardDiv img{
    height: 250px;
    width: 300px;
 }
 
+
+/* SIDE CARD ...............*/
+
+
+.mainDivSml{
+    display: flex;
+    
+    /* background: yellow; */
+    margin-top: 50px;
+
+}
+.bodyDiv{
+   
+    /* background: green; */
+    padding: 10px;
+    
+    padding-top: 20px;
+}
+
+.bodyDiv h5{
+   
+    font-family: 'Mukta', sans-serif;
+    font-size: 20px;
+    color: #3cb371;
+}
+
+.bodyDiv h4{
+   
+    font-family: 'Mukta', sans-serif;
+    
+    
+
+}
+
+.bodyDiv p{
+   
+    font-family: 'Mukta', sans-serif;
+
+}
+
+/* FLOOR PLAN................................ */
+
+.mainnDiv{
+    margin-top: 100px;
+    
+   
+    
+}
+
+.picDiv{
+    
+    text-align: center;
+    margin-top: 70px;
+}
+
+.picDiv img{
+    
+   width: 300px;
+}
+
+.dscDiv{
+    text-align: center;
+}
+
+/* VDO PROPERTY..................... */
+
+.mainDivvv{
+    margin-top: 100px;
+    
+}
+
+.vdoDiv{
+    
+    text-align: center;
+    margin-top: 70px;
+    
+}
+
+.vdoDiv video{
+    object-fit: cover;
+}
+
+
+
+
+
+@media screen and (max-width:700px ){
+    .mainDiv{
+      background-color: #32cd32;
+    }
+    
+  }

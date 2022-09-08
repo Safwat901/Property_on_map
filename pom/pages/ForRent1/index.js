@@ -7,6 +7,7 @@ import BreadCumbMui from "../../components/BreadCumbMui";
 import ForRent1Card from "../../components/ForRent1Card";
 import ForRent1Form from "../../components/ForRent1Form";
 import ForRent1sideCard from "../../components/ForRent1sideCard";
+import ForRentsideCardsml from "../../components/ForRentsideCardsml";
 
 const index = () => {
   return (
@@ -18,8 +19,6 @@ const index = () => {
       <MegaMenuBar />
       <BreadCumbMui segment="For Rent" place="Notun Bazar" />
       <ForRent1Card />
-      <ForRent1Form />
-      <ForRent1sideCard />
 
       <Footer />
     </>

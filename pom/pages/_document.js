@@ -36,6 +36,13 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@0;1&family=Josefin+Slab:wght@100&family=League+Gothic&family=Mouse+Memoirs&family=Roboto:wght@300&family=Square+Peg&family=Tiro+Gurmukhi&family=Ubuntu+Condensed&display=swap"
           rel="stylesheet"
         ></link>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@0;1&family=Josefin+Slab:wght@100&family=League+Gothic&family=Mouse+Memoirs&family=Mukta:wght@200;400&family=Raleway:wght@100;200;700&family=Roboto:wght@300&family=Square+Peg&family=Tiro+Gurmukhi&family=Ubuntu+Condensed&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <body>
         <Main />

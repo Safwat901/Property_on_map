@@ -7,6 +7,7 @@ import MegaMenuBar from "../../components/MegaMenuBar";
 import JsonCardRent from "../../components/JsonCardRent";
 
 import BreadCumbMui from "../../components/BreadCumbMui";
+import ForRentPagination from "../../components/ForRentPagination";
 
 const index = () => {
   return (
@@ -19,6 +20,7 @@ const index = () => {
       {/* <BreadCumb segment="For Rent" path="Notun Bazar" /> */}
       <BreadCumbMui segment="For Rent" place="Notun Bazar" />
       <JsonCardRent />
+      <ForRentPagination />
 
       <Footer />
     </>

@@ -12,11 +12,7 @@
 /* ...........................PROPERTY ON MAP CUSTOM DESIGN......................... */
 
 
-/* *{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+/* *
 
  .footer_container{
   background-color: #212329;
@@ -44,6 +40,12 @@
 
 *{
   font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  
+    padding: 0;
+    margin: 0;
+    
+ 
   
 }
 
@@ -77,7 +79,7 @@
   color: white;
   text-decoration: none;
   margin-bottom: 0.5rem;
-  font-family: 'Tiro Gurmukhi', serif;
+  font-family: 'Tiro Gurmukhi', serif; /* //montserrat */
   font-size: 15px;
 }
 
@@ -386,19 +388,20 @@ nav{
   width: 20%;
   float: right;
   margin-right: 320px;
-  margin-top: -320px;
+  margin-top: -240px;
   color: black;
-  height: 20rem;
+  height: 15rem;
   width: 35rem;
   text-align: center;
   border: 1px solid #d3d3d3;
-  box-shadow: 5px 5px 15px rgb(0,0,0,0.5)
+  box-shadow: 5px 5px 15px rgb(0,0,0,0.5);
+  margin-left: 370px;
 
 }
 
 .img-div img{
   width: 23rem;
-   height: 20rem; 
+   height: 15rem; 
    object-fit: auto
             
 }
@@ -406,6 +409,8 @@ nav{
 .main-div{
   margin-left: 100px;
   margin-top:40px ;
+  display: flex;
+  
 }
 
 .body-div p{
@@ -414,7 +419,7 @@ nav{
 }
 
 .desc-dev{
-  margin-top: 30px;
+  margin-top: 15px;
   
 
 }
@@ -436,4 +441,14 @@ nav{
 
 .btnnDiv{
   background: #32cd32;
+}
+
+
+
+
+@media screen and (max-width:700px ){
+  .foot_er h1{
+    background-color: red;
+  }
+  
 }

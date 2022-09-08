@@ -6,6 +6,7 @@ const Carousell = (props) => {
     <>
       <Carousel>
         <div
+          style={{ top: "0", marginTop: "-530px" }}
           id="carouselExampleSlidesOnly"
           class="carousel slide"
           data-bs-ride="carousel"
@@ -13,9 +14,10 @@ const Carousell = (props) => {
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
+                style={{ borderRadius: "45%", width: "1500px" }}
                 src={props.imgsrc}
-                width="500"
-                height="600"
+                width="1300"
+                height="1300"
                 class="d-block w-100"
                 alt="..."
               />

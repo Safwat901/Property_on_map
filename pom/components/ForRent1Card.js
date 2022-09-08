@@ -10,16 +10,21 @@ import SingleBedIcon from "@mui/icons-material/SingleBed";
 import ShowerIcon from "@mui/icons-material/Shower";
 import SquareFootIcon from "@mui/icons-material/SquareFoot";
 import DirectionsIcon from "@mui/icons-material/Directions";
+import ForRent1FloorPlan from "./ForRent1FloorPlan";
+import ForRent1Form from "./ForRent1Form";
+import ForRent1PrprtVdo from "./ForRent1PrprtVdo";
+import ForRent1SeeAlso from "./ForRent1SeeAlso";
+import { style } from "@mui/system";
 
 const ForRent1Card = () => {
   return (
     <>
       <div
         style={{
-          //   background: "yellow",
+          // background: "black",
           width: "60%",
           marginBottom: "50rem",
-          // background: "red",
+
           display: "flex",
           flexDirection: "column",
         }}
@@ -212,8 +217,14 @@ const ForRent1Card = () => {
             guaranteeing healthy hygiene. Want to know more about this flat?
             Just give us a call or contact us!
           </div>
+          <ForRent1FloorPlan />
+          <ForRent1PrprtVdo />
+          <div style={{ display: "flex" }}>
+            <ForRent1SeeAlso />
+          </div>
         </div>
       </div>
+      <ForRent1Form />
     </>
   );
 };

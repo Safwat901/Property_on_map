@@ -444,6 +444,52 @@ nav{
 }
 
 
+/* ACTIVE NAVBAR.................................................. */
+header{
+  
+ 
+  position: sticky;
+  top:0;
+  width: 100%;
+  z-index: 1111;
+}
+
+.mainHeaderr{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffff;
+  height: 60px;
+}
+
+.ul{
+  list-style: none;
+  display: flex;
+}
+
+.links{
+  padding: 5px 8px;
+  border: none;
+  display: inline-block;
+  margin-right: 80px;
+  padding: 10px;
+  transition: all linear 0.5s;
+}
+
+.links a{
+  
+  width: 180px;
+  display: inline-block;
+ color:gray;
+ text-decoration: none;
+ font-weight: bold;
+ padding: 10px;
+ font-family: "Alumni Sans Inline One",
+ 
+ 
+ 
+
+}
 
 
 @media screen and (max-width:700px ){

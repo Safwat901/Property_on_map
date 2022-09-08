@@ -227,6 +227,12 @@ border-width: 1px;
     object-fit: cover;
 }
 
+.my-modal{
+    width: 90vw;
+    max-width: 90vw;
+    background: #32cd32;
+}
+
 
 
 

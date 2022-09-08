@@ -8,6 +8,7 @@ import ForRent1Card from "../../components/ForRent1Card";
 import ForRent1Form from "../../components/ForRent1Form";
 import ForRent1sideCard from "../../components/ForRent1sideCard";
 import ForRentsideCardsml from "../../components/ForRentsideCardsml";
+import NavbarActive from "../../components/NavbarActive";
 
 const index = () => {
   return (
@@ -18,6 +19,7 @@ const index = () => {
       <NavBarUpper />
       <MegaMenuBar />
       <BreadCumbMui segment="For Rent" place="Notun Bazar" />
+
       <ForRent1Card />
 
       <Footer />

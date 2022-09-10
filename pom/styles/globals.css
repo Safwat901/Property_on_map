@@ -458,8 +458,16 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #ffff;
+  background: white;
   height: 60px;
+  visibility: hidden;
+}
+
+.mainHeaderr.active{
+  
+  background: #f5fffa;
+  visibility: visible;
+ 
 }
 
 .ul{
@@ -474,6 +482,7 @@ header{
   margin-right: 80px;
   padding: 10px;
   transition: all linear 0.5s;
+  margin-top: 7px;
 }
 
 .links a{
@@ -485,6 +494,15 @@ header{
  font-weight: bold;
  padding: 10px;
  font-family: "Alumni Sans Inline One",
+ 
+ 
+ 
+
+}
+
+.links:hover a{
+  
+  color:#3cb371;
  
  
  

@@ -23,15 +23,31 @@ import React, { useState } from "react";
 
 const ForRent1Card = () => {
   const [show, setShow] = useState(false);
+  const [mainHeaderr, setmainHeaderr] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
+  // SHOW NAVBAR INTERACTIVE...........................
+  const showNav = () => {
+    if (typeof window !== "undefined") {
+      if (window.scrollY >= 500) {
+        setmainHeaderr(true);
+      } else {
+        setmainHeaderr(false);
+      }
+    }
+  };
+  if (typeof window !== "undefined") {
+    window.addEventListener("scroll", showNav);
+  }
+
   return (
     <>
       {/* ACTIVE NAVBAR........... */}
       <header>
-        <div className="containerz">
-          <div className="mainHeaderr">
+        <nav className="containerz">
+          <div className={mainHeaderr ? "mainHeaderr active" : "mainHeaderr"}>
             <span
               style={{
                 color: "#4f7942",
@@ -62,7 +78,7 @@ const ForRent1Card = () => {
               </ul>
             </div>
           </div>
-        </div>
+        </nav>
       </header>
       {/* ACTIVE NAVBAR END........... */}
       <div

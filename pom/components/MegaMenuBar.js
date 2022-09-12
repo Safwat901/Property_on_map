@@ -22,15 +22,15 @@ const MegaMenuBar = () => {
               <img
                 style={{ marginLeft: "-90px" }}
                 src="/logo.png"
-                width="100px"
-                height="60px "
+                width="60px"
+                height="50px "
                 alt="logo"
                 margin="200px"
               ></img>
 
               <span
                 style={{
-                  color: "#4f7942",
+                  color: "#00154f",
                   fontFamily: "Alumni Sans Inline One",
                   fontSize: "30px",
                   margin: "1px",

@@ -25,17 +25,17 @@ const Cards = (props) => {
         </div>
 
         <div class="card-body text-center ">
-          <h5 class="card-title">{props.title}</h5>
-          <p style={{ color: "Green" }} class="card-location">
-            {props.location}
-          </p>
+          <h5 style={{ color: "#f4af1b" }} class="card-title">
+            {props.title}
+          </h5>
+          <p class="card-location">{props.location}</p>
 
           <p style={{ fontFamily: "robot" }} class="card-detail">
             {props.detail}
           </p>
           <a
             href={props.link}
-            style={{ background: "#32cd32", color: "white" }}
+            style={{ background: "#00154f  ", color: "white" }}
             class="btn "
           >
             See Deatils

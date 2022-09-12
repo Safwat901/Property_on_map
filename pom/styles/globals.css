@@ -44,6 +44,7 @@
   
     padding: 0;
     margin: 0;
+    /* background: rgb(234, 234, 244); */
     
  
   
@@ -52,7 +53,9 @@
 .flex_container{
   display: flex;
   padding: 10px;
-  background: linear-gradient(100deg,#4f7942, #3fff00); /*(63,255,0) */
+  background: #00154f;
+  
+  /* background: linear-gradient(10deg,#00154f, #f4af1b ); (63,255,0) */
   color: aliceblue;
   margin-top: 20%;
   justify-content: center;
@@ -127,7 +130,7 @@
 }
 .sign_in button{
   
-  background: #32cd32;
+  background: #00154f;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: azure;
   width: 110px;
@@ -175,7 +178,7 @@
   width: 500px;
   outline: none;
   border-radius: 50px;
-  border: 3px solid #4f7942;
+  border: 3px solid #00154f;
   height: 45px;
   padding: 0px 10px;
   
@@ -192,8 +195,8 @@
   
   justify-content: center;
   align-items: center;
-  background: #4f7942;
-  border: 3px solid #3fff00;
+  background: #f4af1b;
+  border: 3px solid #00154f;
   font-family: 'Verdana';
   
   color: white;
@@ -319,12 +322,13 @@ text-align: center;
   margin-bottom: 0.5rem;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   
-  color: #198754;
+  color: #00154f;
 }
 
 .forSale_col h3{
 
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #f4af1b ;
   
 }
 
@@ -346,12 +350,14 @@ text-align: center;
   text-decoration: none;
   margin-bottom: 0.5rem;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: #198754;
+  color: #00154f;
 }
 
 .forRents_col h3{
 
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #f4af1b ;  
+
   
 }
 
@@ -470,6 +476,7 @@ header{
  
 }
 
+
 .ul{
   list-style: none;
   display: flex;
@@ -489,7 +496,7 @@ header{
   
   width: 180px;
   display: inline-block;
- color:gray;
+ color:#00154f ;
  text-decoration: none;
  font-weight: bold;
  padding: 10px;
@@ -502,7 +509,7 @@ header{
 
 .links:hover a{
   
-  color:#3cb371;
+  color:#f4af1b; 
  
  
  

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Cards = (props) => {
   return (
     <>
@@ -33,13 +35,11 @@ const Cards = (props) => {
           <p style={{ fontFamily: "robot" }} class="card-detail">
             {props.detail}
           </p>
-          <a
-            href={props.link}
-            style={{ background: "#00154f  ", color: "white" }}
-            class="btn "
-          >
-            See Deatils
-          </a>
+          <Link href="/ForRent1">
+            <a style={{ background: "#00154f  ", color: "white" }} class="btn ">
+              See Deatils
+            </a>
+          </Link>
         </div>
       </div>
     </>

@@ -1,10 +1,12 @@
 import Button1 from "./Button1";
 import Link from "next/link";
+import styles from "../styles/ForRent1.module.css";
+import ForRentsideCardsml from "./ForRentsideCardsml";
 
 const CardForDetail = (props) => {
   return (
     <>
-      <div className="main-div">
+      <div style={{ display: "flex" }} className="main-div">
         <a href="/ForRent1">
           <div className="img-div">
             <img src={props.data.imgsrcs} alt="sdkja"></img>

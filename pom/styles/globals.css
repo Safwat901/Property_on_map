@@ -218,6 +218,9 @@ text-align: center;
 
 
 
+
+
+
 }
 
 .container h1{
@@ -287,12 +290,15 @@ text-align: center;
   margin: 0px;
   text-align: left;
   
-  margin-top:30rem;
+  margin-top:5rem;
   width: 60rem;
   margin-left: 330px;
   
   padding: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 500px;
+ align-items: center;
+ justify-content: center;
+
   
   
   } 
@@ -336,6 +342,7 @@ text-align: center;
 
 .forRent{
   display: flex;
+  margin-right: 40px;
 
 }
 

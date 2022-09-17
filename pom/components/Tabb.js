@@ -14,14 +14,11 @@ const Tabb = () => {
         id="uncontrolled-tab-example"
         className="mb-3"
       >
-        <Tab style={{ marginLeft: "200px" }} eventKey="home" title="For Sale">
+        <Tab style={{ marginLeft: "10px" }} eventKey="home" title="For Sale">
           <ForSalePNM />
         </Tab>
-        <Tab
-          style={{ marginLeft: "200px" }}
-          eventKey="profile"
-          title="For Rent"
-        >
+
+        <Tab style={{ marginLeft: "10px" }} eventKey="profile" title="For Rent">
           <ForRentPNM />
         </Tab>
       </Tabs>

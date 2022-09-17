@@ -2,51 +2,66 @@ import Link from "next/link";
 const ForSalePNM = () => {
   return (
     <>
-      <div className="forSale">
-        <div className="forSale_col">
-          <h3>Useful Links</h3>
+      <div
+        style={{
+          marginLeft: "10px",
 
-          <Link href="/">ABOUT US</Link>
-          <Link href="/">CONTACT US</Link>
-          <Link href="/">CAREERS </Link>
-          <Link href="/">TERMS AND PRIVACY </Link>
-        </div>
-
-        <div
-          style={{ display: "flex", flexDirection: "column", margin: "30px" }}
-          className="forSale_col"
-        >
-          <h3>Useful Links</h3>
-          <Link href="/">ABOUT US</Link>
-          <Link href="/">CONTACT US</Link>
-          <Link href="/">CAREERS </Link>
-          <Link href="/">TERMS AND PRIVACY </Link>
-        </div>
-
-        <div
-          style={{ display: "flex", flexDirection: "column", margin: "30px" }}
-          className="forSale_col"
-        >
-          <h3>Useful Links</h3>
-          <Link href="/">ABOUT US</Link>
-          <Link href="/">CONTACT US</Link>
-          <Link href="/">CAREERS </Link>
-          <Link href="/">TERMS AND PRIVACY </Link>
-        </div>
-
+          alignItem: "center",
+        }}
+      >
         <div
           style={{
-            display: "flex",
-            flexDirection: "column",
-            margin: "30px",
+            marginLeft: "-10px",
+
+            alignItem: "center",
           }}
-          className="forSale_col "
+          className="forSale"
         >
-          <h3>Useful Links</h3>
-          <Link href="/">ABOUT US</Link>
-          <Link href="/">CONTACT US</Link>
-          <Link href="/">CAREERS </Link>
-          <Link href="/">TERMS AND PRIVACY </Link>
+          <div className="forSale_col">
+            <h3>Useful Links</h3>
+
+            <Link href="/">ABOUT US</Link>
+            <Link href="/">CONTACT US</Link>
+            <Link href="/">CAREERS </Link>
+            <Link href="/">TERMS AND PRIVACY </Link>
+          </div>
+
+          <div
+            style={{ display: "flex", flexDirection: "column", margin: "30px" }}
+            className="forSale_col"
+          >
+            <h3>Useful Links</h3>
+            <Link href="/">ABOUT US</Link>
+            <Link href="/">CONTACT US</Link>
+            <Link href="/">CAREERS </Link>
+            <Link href="/">TERMS AND PRIVACY </Link>
+          </div>
+
+          <div
+            style={{ display: "flex", flexDirection: "column", margin: "30px" }}
+            className="forSale_col"
+          >
+            <h3>Useful Links</h3>
+            <Link href="/">ABOUT US</Link>
+            <Link href="/">CONTACT US</Link>
+            <Link href="/">CAREERS </Link>
+            <Link href="/">TERMS AND PRIVACY </Link>
+          </div>
+
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              margin: "30px",
+            }}
+            className="forSale_col "
+          >
+            <h3>Useful Links</h3>
+            <Link href="/">ABOUT US</Link>
+            <Link href="/">CONTACT US</Link>
+            <Link href="/">CAREERS </Link>
+            <Link href="/">TERMS AND PRIVACY </Link>
+          </div>
         </div>
       </div>
     </>

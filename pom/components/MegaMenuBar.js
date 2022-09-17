@@ -27,144 +27,150 @@ const MegaMenuBar = () => {
                 alt="logo"
                 margin="200px"
               ></img>
+              <Link href="/">
+                <a
+                  style={{
+                    color: "#00154f",
+                    fontFamily: "Alumni Sans Inline One",
+                    fontSize: "30px",
+                    margin: "1px",
+                    padding: "10px",
+                    textDecoration: "none",
 
-              <span
-                style={{
-                  color: "#00154f",
-                  fontFamily: "Alumni Sans Inline One",
-                  fontSize: "30px",
-                  margin: "1px",
-                  padding: "10px",
-
-                  bottom: "50px",
-                }}
-              >
-                Property On Map
-              </span>
+                    bottom: "50px",
+                  }}
+                >
+                  Property On Map
+                </a>
+              </Link>
             </div>
 
             {/* .........................logo end................. */}
             <div className={styles.navMenu}>
               <li>
-                <a href="/">buy</a>
+                <Link href="/ForRent">
+                  <a>Buy</a>
+                </Link>
                 <div className={styles.subMenu}>
                   <div className={styles.col}>
                     <a href="/">
                       <img
-                        style={{ marginLeft: "0px" }}
+                        style={{ marginLeft: "0px", borderRadius: "10px" }}
                         src="/Megaimg1.jpg"
                         alt="missing"
                       />
                       <p>plot for sale</p>
 
-                      <button>sdkls</button>
+                      {/* <button>Click Me</button> */}
                     </a>
                   </div>
                   <div className={styles.col}>
                     <a href="/">
                       <img
-                        style={{ marginLeft: "0px" }}
+                        style={{ marginLeft: "0px", borderRadius: "10px" }}
                         src="/Megaimg1.jpg"
                         alt="missing"
                       />
                       <p>building for sale</p>
 
-                      <button style={{ marginTop: "-20px" }}>sdkls</button>
+                      {/* <button style={{ marginTop: "-20px" }}>sdkls</button> */}
                     </a>
                   </div>
                   <div className={styles.col}>
                     <a href="/">
                       <img
-                        style={{ marginLeft: "0px" }}
+                        style={{ marginLeft: "0px", borderRadius: "10px" }}
                         src="/Megaimg1.jpg"
                         alt="missing"
                       />
                       <p>duplex for sale</p>
-                      <button>sdkls</button>
+                      {/* <button>sdkls</button> */}
                     </a>
                   </div>
                   <div className={styles.col}>
                     <a href="/">
                       <img
-                        style={{ marginLeft: "0px" }}
+                        style={{ marginLeft: "0px", borderRadius: "10px" }}
                         src="/Megaimg1.jpg"
                         alt="missing"
                       />
                       <p>all residential properties</p>
-                      <button style={{ marginTop: "-20px" }}>sdkls</button>
+                      {/* <button style={{ marginTop: "-20px" }}>sdkls</button> */}
                     </a>
                   </div>
                   <div className={styles.col}>
                     <a href="/">
                       <img
-                        style={{ marginLeft: "0px" }}
+                        style={{ marginLeft: "0px", borderRadius: "10px" }}
                         src="/Megaimg1.jpg"
                         alt="missing"
                       />
                       <p>all commercial properties</p>
-                      <button style={{ marginTop: "-20px" }}>sdkls</button>
+                      {/* <button style={{ marginTop: "-20px" }}>sdkls</button> */}
                     </a>
                   </div>
                 </div>
               </li>
               <li>
-                <a href="/">rent</a>
+                <Link href="/ForRent">
+                  <a>Rent</a>
+                </Link>
                 <div className={styles.subMenu}>
                   <div className={styles.col}>
                     <a href="/">
                       <img
-                        style={{ marginLeft: "0px" }}
+                        style={{ marginLeft: "0px", borderRadius: "10px" }}
                         src="/Megaimg1.jpg"
                         alt="missing"
                       />
                       <p>plot for sale</p>
 
-                      <button>sdkls</button>
+                      {/* <button>sdkls</button> */}
                     </a>
                   </div>
                   <div className={styles.col}>
                     <a href="/">
                       <img
-                        style={{ marginLeft: "0px" }}
+                        style={{ marginLeft: "0px", borderRadius: "10px" }}
                         src="/Megaimg1.jpg"
                         alt="missing"
                       />
                       <p>building for sale</p>
 
-                      <button style={{ marginTop: "-20px" }}>sdkls</button>
+                      {/* <button style={{ marginTop: "-20px" }}>sdkls</button> */}
                     </a>
                   </div>
                   <div className={styles.col}>
                     <a href="/">
                       <img
-                        style={{ marginLeft: "0px" }}
+                        style={{ marginLeft: "0px", borderRadius: "10px" }}
                         src="/Megaimg1.jpg"
                         alt="missing"
                       />
                       <p>duplex for sale</p>
-                      <button>sdkls</button>
+                      {/* <button>sdkls</button> */}
                     </a>
                   </div>
                   <div className={styles.col}>
                     <a href="/">
                       <img
-                        style={{ marginLeft: "0px" }}
+                        style={{ marginLeft: "0px", borderRadius: "10px" }}
                         src="/Megaimg1.jpg"
                         alt="missing"
                       />
                       <p>all residential properties</p>
-                      <button style={{ marginTop: "-20px" }}>sdkls</button>
+                      {/* <button style={{ marginTop: "-20px" }}>sdkls</button> */}
                     </a>
                   </div>
                   <div className={styles.col}>
                     <a href="/">
                       <img
-                        style={{ marginLeft: "0px" }}
+                        style={{ marginLeft: "0px", borderRadius: "10px" }}
                         src="/Megaimg1.jpg"
                         alt="missing"
                       />
                       <p>all commercial properties</p>
-                      <button style={{ marginTop: "-20px" }}>sdkls</button>
+                      {/* <button style={{ marginTop: "-20px" }}>sdkls</button> */}
                     </a>
                   </div>
                 </div>

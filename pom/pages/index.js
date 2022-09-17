@@ -32,15 +32,13 @@ const index = () => {
 
       <MainSearch />
       <FlatFr />
-      <CardsRowfr />
+
       <FlateFs />
-      <CardsRowfs />
 
       <SliderVt />
       <TopRatedev />
-      <CardsTopratedv />
+
       <PopularMymenNeig />
-      <Tabb />
 
       <Footer />
     </>

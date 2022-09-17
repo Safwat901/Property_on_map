@@ -131,7 +131,7 @@ background: grey;
 }
 
 .megaMenu ul li .subMenu .col a{
-background: red;
+/* background: red; */
 width: 150px;
 height: 150px;
 align-items: center;
@@ -141,9 +141,9 @@ align-items: center;
 
 
 .megaMenu ul li .subMenu .col button{
-  background: #32cd32;
+  background: #00154f;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: azure;
+  color: #f4af1b;
   width: 90px;
   height: 35px;
   border-radius: 20px;  
@@ -155,8 +155,11 @@ align-items: center;
   justify-content: center;
   text-align: center;
   vertical-align: top;
+  margin-top: 10px;
     
   }
+
+  
 
   /* ...............DROP DOWN BUTTON.................... */
 

@@ -4,20 +4,20 @@ const Cards = (props) => {
       <div
         className="card"
         style={{
-          width: "18rem",
+          width: "20rem",
           display: "flex",
 
           alignItems: "stretch",
           justifyContent: "space-around",
           float: "right",
           margin: "18px",
-          height: "25rem",
+          height: "22rem",
           boxShadow: "5px 5px 15px rgb(0,0,0,0.5)",
         }}
       >
         <div className="inner">
           <img
-            style={{ width: "18rem", height: "12rem", objectFit: "auto" }}
+            style={{ width: "20rem", height: "12rem", objectFit: "auto" }}
             class="card-img-top"
             src={props.imgsrc}
             alt="Card image cap"
